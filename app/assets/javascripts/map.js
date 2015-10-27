@@ -165,15 +165,15 @@ function initialize() {
     var map3 = new google.maps.Map(document.getElementById("map3"), mapOptions3);
 
     //category
-    var cook3 = 'img/icon/01.png';
-    var sport3 = 'img/icon/02.png';
-    var game3 = 'img/icon/03.png';
-    var eco3 = 'img/icon/04.png';
-    var shop3 = 'img/icon/05.png';
-    var study3 = 'img/icon/06.png';
-    var drink3 = 'img/icon/07.png';
-    var money3 = 'img/icon/08.png';
-    var bus3 = 'img/icon/09.png';
+    var cook3 = 'images/icon/01.png';
+    var sport3 = 'images/icon/02.png';
+    var game3 = 'images/icon/03.png';
+    var eco3 = 'images/icon/04.png';
+    var shop3 = 'images/icon/05.png';
+    var study3 = 'images/icon/06.png';
+    var drink3 = 'images/icon/07.png';
+    var money3 = 'images/icon/08.png';
+    var bus3 = 'images/icon/09.png';
 
     //positions
     var point123 = new google.maps.LatLng(41.163, -73.337);
