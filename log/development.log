@@ -96,3 +96,20 @@ Migrating to AddingPasswordToUser (20151028031710)
             FROM sqlite_temp_master
             WHERE name='index_attendees_on_user_id' AND type='index'
 [0m
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('e@e.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  [1m[36m (3.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('e@e.com') LIMIT 1
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO "users" ("first_name", "last_name", "email", "username", "birth_date", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Eaton"], ["last_name", "Wong"], ["email", "e@e.com"], ["username", "GSXR"], ["birth_date", 0], ["password_digest", "$2a$10$UFNVjlKUsKHTm7mkGm/Eye6BT7wUwloYFFVWMiptyUBipQg8EU0He"], ["created_at", "2015-10-28 04:00:21.294950"], ["updated_at", "2015-10-28 04:00:21.294950"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
