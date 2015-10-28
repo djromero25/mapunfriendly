@@ -11,13 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151027004028) do
+ActiveRecord::Schema.define(version: 20151028031710) do
 
-    create_table "activities", force: true do |t|
+    create_table "activities", force: :cascade do |t|
         t.integer  "user_id"
-        t.string   "name"
+        t.string   "name",          limit: 255
         t.text     "description"
-        t.string   "type"
+        t.string   "type",          limit: 255
         t.date     "date_time"
         t.integer  "max_attendees"
         t.decimal  "cost"
@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20151027004028) do
 
     add_index "activities", ["user_id"], name: "index_activities_on_user_id"
 
-    create_table "attendees", force: true do |t|
+    create_table "attendees", force: :cascade do |t|
         t.integer  "user_id"
         t.integer  "activity_id"
         t.datetime "created_at"
@@ -39,15 +39,16 @@ ActiveRecord::Schema.define(version: 20151027004028) do
     add_index "attendees", ["activity_id"], name: "index_attendees_on_activity_id"
     add_index "attendees", ["user_id"], name: "index_attendees_on_user_id"
 
-    create_table "users", force: true do |t|
-        t.string   "first_name"
-        t.string   "last_name"
-        t.string   "email"
-        t.string   "username"
+    create_table "users", force: :cascade do |t|
+        t.string   "first_name",      limit: 255
+        t.string   "last_name",       limit: 255
+        t.string   "email",           limit: 255
+        t.string   "username",        limit: 255
         t.date     "birth_date"
-        t.string   "picture"
+        t.string   "picture",         limit: 255
         t.datetime "created_at"
         t.datetime "updated_at"
+        t.string   "password_digest"
     end
 
 end
