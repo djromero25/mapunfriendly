@@ -4,6 +4,7 @@ class User < ActiveRecord::Base
     validates :password, presence:true, :length => { :minimum => 8, :maximum => 40 }, :confirmation =>true
     validates :email, presence: true, uniqueness: { case_sensitive: false }, format: { with: EMAIL_REGEX }
     has_secure_password
-    has_many :activities
-    has_many :attended_activities
+    has_many :activities, foreign_key: "host_id"
+    has_many :attendances, foreign_key: "attendee_id"
+    has_many :attended_activities, through: :attendances
 end
