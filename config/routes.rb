@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-    root 'attendees#index'
+    root 'activities#index'
 
     # Sessions #
     get 'sessions' => "sessions#index"
@@ -7,9 +7,9 @@ Rails.application.routes.draw do
     delete 'sessions' => "sessions#delete"
 
     # Attendees #
-    post 'attendees/create' => 'attendees#create'
-    patch 'attendees/:id' => 'attendees#update'
-    delete 'attendees/:id' => 'attendees#delete'
+    post 'attendances/create' => 'attendances#create'
+    patch 'attendances/:id' => 'attendances#update'
+    delete 'attendances/:id' => 'attendances#delete'
 
     # Activities #
     get 'activities' => 'activities#index'

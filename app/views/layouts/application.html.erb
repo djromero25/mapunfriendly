@@ -2,13 +2,23 @@
 <html>
 <head>
   <title>Advanced</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', 'bootstrap-theme',  'bootstrap', 'main', 'whhg', media: 'all', 'data-turbolinks-track' => true %>
+  
   <%= csrf_meta_tags %>
+  <title>Geometry theme by MatArt theme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="/assets/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="/assets/main.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="/assets/whhg.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]> <script src="../../assets/js/html5shiv.js"></script> <script src="../../assets/js/respond.min.js"></script> <![endif]-->
 </head>
 <body>
 
 <%= yield %>
 
-</body>
+    
+<!-- 	<%= javascript_include_tag 'application', 'bootstrap', 'jQueryv2.0.3', 'map', 'owl.carousel', 'pxgradient-1.0.2.jquery', 'data-turbolinks-track' => true %>
+ --></body>
 </html>
