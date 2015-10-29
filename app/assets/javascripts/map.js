@@ -35,7 +35,7 @@ function initialize() {
     var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
 
     //category
-    var cook = 'img/icon/01.png';
+    var cook = 'assets/01.png';
 
     //positions
     var point1 = new google.maps.LatLng(41.154, -73.328);

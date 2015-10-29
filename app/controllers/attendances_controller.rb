@@ -1,10 +1,10 @@
-class ConnectionsController < ApplicationController
+class AttendancesController < ApplicationController
     before_action :require_login, except: [:new, :create]
     # before_action :require_correct_user, only: [:show, :edit, :update, :destroy]
     def index
         @user = User.find(current_user)
-        @connections = @user.connections.where(status: true)
-        @invitations = @user.connections.where(status: false)
+        # @connections = @user.connections.where(status: true)
+        # @invitations = @user.connections.where(status: false)
         render "index"
     end
 
