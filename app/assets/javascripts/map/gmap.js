@@ -5,10 +5,10 @@ $(window).load(function() {
 var map;
 
 function initialize() {
-        
+        console.log("gmaps")
   var mapOptions = {
-          center: new google.maps.LatLng(30.055487, 31.279766),
-          zoom: 8,
+          center: new google.maps.LatLng(34.179307, -118.310105),
+          zoom: 12,
           mapTypeId: google.maps.MapTypeId.NORMAL,
           panControl: true,
           scaleControl: false,
