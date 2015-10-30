@@ -5578,3 +5578,181 @@ Started GET "/assets/map.self.js?body=1" for ::1 at 2015-10-29 15:19:18 -0700
 
 
 Started GET "/assets/logo.png" for ::1 at 2015-10-29 15:19:18 -0700
+
+
+Started GET "/" for ::1 at 2015-10-29 19:39:12 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ActivitiesController#index as HTML
+  Rendered activities/index.html.erb within layouts/application (2042.8ms)
+Completed 200 OK in 3056ms (Views: 3017.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/activities.self.css?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/attendees.self.css?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/bootstrap.min.self.css?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.self.css?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/bootstrap-theme.self.css?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/bootstrap.self.css?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/main.self.css?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/users.self.css?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/whhg.self.css?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/main.css" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/whhg.css" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/bootstrap.js" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/underscore.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/base.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/base/base.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/objects/base_builder.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/objects/handler.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/objects/builder.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/objects/common.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/builders/bound.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/builders/circle.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/builders/kml.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/builders/map.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/builders/marker.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/objects/bound.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/objects/circle.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/objects/kml.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/objects/marker.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/objects/map.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google/primitives.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/gmaps/google.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/activities.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/attendees.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/bootstrap.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/bootstrap.min.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/jQueryv2.0.3.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/map/gmap.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/map.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/owl.carousel.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/pxgradient-1.0.2.jquery.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/users.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/MFLogo.png" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/demo01.png" for ::1 at 2015-10-29 19:39:18 -0700
+
+
+Started GET "/assets/start.gif" for ::1 at 2015-10-29 19:39:18 -0700

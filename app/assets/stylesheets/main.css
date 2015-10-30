@@ -134,7 +134,7 @@ margin-bottom: 0px;
     float: left;
 }
 
-.autorization_btn {
+.authorization_btn {
     float: right;
 }
 
@@ -256,8 +256,8 @@ margin-bottom: 0px;
     color: #d41b1b !important;
     padding-right: 2px;
 }
-/*autorization modal*/
-#autorization .modal-content, #autorization .modal-dialog {
+/*authorization modal*/
+#authorization .modal-content, #authorization .modal-dialog {
     max-width: 300px;
 }
 
